@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-nicecoast: #4f526f;
+	--color-nicesky: #a8cbec;
+	--color-nicesea: #5c8ebe;
+	--color-nicewhite: #eeeeee;
+}
