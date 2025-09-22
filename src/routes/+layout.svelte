@@ -10,12 +10,18 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
-<div class="grid h-screen grid-cols-5 gap-2 bg-nicewhite text-nicecoast">
-	<header class="w-ful col-span-1 col-start-1 bg-nicesky bg-gradient-to-b pt-24 pr-12">
-		<img class="mb-8 ml-auto size-48 rounded-full shadow-xl" src={portrait} alt="Sara Sellam" />
-		<h1 class="mb-2 ml-auto w-fit text-4xl">Sara Sellam</h1>
-		<p class="mb-4 ml-auto w-fit text-2xl">Data scientist</p>
-		<ul class="mb-4 ml-auto flex w-fit flex-row gap-4">
+<div
+	class="grid h-screen gap-2 bg-nicewhite font-inter text-nicecoast lg:grid-cols-4 xl:grid-cols-6"
+>
+	<header class="w-ful col-span-1 col-start-1 bg-nicesea bg-gradient-to-b p-6 text-nicewhite">
+		<img
+			class="min-48 m-auto mb-16 size-48 rounded-full shadow-xl"
+			src={portrait}
+			alt="Sara Sellam"
+		/>
+		<h1 class="text m-auto w-fit text-4xl">Sara Sellam</h1>
+		<p class="m-auto mb-4 w-fit text-2xl text-nicesky">Data scientist</p>
+		<ul class="m-auto mb-4 flex w-fit flex-row gap-4">
 			<li>
 				<a href="https://github.com/Sara-Sellam">
 					<img src={ghlogo} alt="Github logo" class="size-8" />
@@ -27,11 +33,11 @@
 				</a>
 			</li>
 		</ul>
-		<nav class="ml-auto w-fit text-2xl">
-			<ul class="list-inside text-right">
-				<li><a href="/">Home</a></li>
-				<li><a href="/aboutme">About me</a></li>
-				<li><a href="/studies">Studies</a></li>
+		<nav class="text-2xl">
+			<ul class="list-inside">
+				<li><a class=" hover:bg-nicesky" href="/">Home</a></li>
+				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
+				<li><a class=" hover:bg-nicesky" href="/experience">Studies</a></li>
 			</ul>
 		</nav>
 	</header>
