@@ -15,6 +15,6 @@
 			matter from CERN particle collision data.
 		</p>
 		<p>I love working with data and solving problems.</p>
-		<p>Interested in working together or having a chat? Feel free to reach out to me.</p>
+		<p>Interested in working together or having a chat? Feel free to reach out to me .</p>
 	</article>
 </section>
