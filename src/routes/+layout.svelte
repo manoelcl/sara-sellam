@@ -11,9 +11,9 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 <div
-	class="grid h-screen gap-2 bg-nicewhite font-inter text-nicecoast lg:grid-cols-4 xl:grid-cols-6"
+	class=" grid h-screen grid-cols-[max-content_1fr] grid-rows-[1fr_max-content] bg-nicewhite font-inter text-nicecoast"
 >
-	<header class="w-ful col-span-1 col-start-1 bg-nicesea bg-gradient-to-b p-6 text-nicewhite">
+	<header class="col-span-1 col-start-1 h-full w-80 bg-nicesea p-6 text-nicewhite">
 		<img
 			class="min-48 m-auto mb-16 size-48 rounded-full shadow-xl"
 			src={portrait}
@@ -33,15 +33,16 @@
 				</a>
 			</li>
 		</ul>
-		<nav class="text-2xl">
+		<nav class="mb-auto text-2xl">
 			<ul class="list-inside">
 				<li><a class=" hover:bg-nicesky" href="/">Home</a></li>
 				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
-				<li><a class=" hover:bg-nicesky" href="/experience">Studies</a></li>
+				<li><a class=" hover:bg-nicesky" href="/experience">Experience</a></li>
 			</ul>
 		</nav>
 	</header>
-	<main class="col-span-4 col-start-2">
+	<main class="col-span-1 col-start-2">
 		{@render children?.()}
 	</main>
+	<footer class="col-span-2 col-start-1 row-start-2 h-8 bg-nicecoast"></footer>
 </div>

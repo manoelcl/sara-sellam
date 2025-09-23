@@ -4,34 +4,45 @@
 		"map": "Constantine",
 		"institution": "University of Constantine",
 		"start": 2013,
-		"end": 2016
+		"end": 2016,
+		"description": "",
+		"linked": []
 	},
 	{
 		"name": "Master Degree in Theoretical Physics",
 		"map": "Constantine",
 		"institution": "University of Constantine",
 		"start": 2016,
-		"end": 2018
+		"end": 2018,
+		"description": "Thesis:\\n- Explored the demand for precise predictions in new physics models, addressing the complexities of analyzing and studying these phenomena in the field of phenomenology.\\n- Introduced and applied essential computer tools—FeynCalc, FeynArts, and FormCalc—to recalculate amplitudes of established processes in the Standard Model, providing insights into quantum field theory.\\n- Successfully defended the thesis in French, highlighting the pivotal role of these computational tools in advancing our comprehension of fundamental physical phenomena.",
+		"linked": [{ "name": "Thesis", "id": "masters-thesis" }]
 	},
+
 	{
 		"name": "Summer Student",
 		"map": "Ginebra",
 		"institution": "CERN",
 		"start": 2018,
-		"end": 2018
+		"end": 2018,
+		"description": "",
+		"linked": []
 	},
 	{
 		"name": "Student Intern",
 		"map": "Ginebra",
 		"institution": "CERN",
 		"start": 2022,
-		"end": 2022
+		"end": 2022,
+		"description": "",
+		"linked": []
 	},
 	{
 		"name": "PhD",
 		"map": "Santiago de Compostela",
-		"institution": "CERN",
+		"institution": "University of Santiago de Compostela",
 		"start": 2020,
-		"end": "current"
+		"end": "current",
+		"description": "",
+		"linked": []
 	}
 ]
