@@ -17,7 +17,6 @@
 		"description": "Thesis:\\n- Explored the demand for precise predictions in new physics models, addressing the complexities of analyzing and studying these phenomena in the field of phenomenology.\\n- Introduced and applied essential computer tools—FeynCalc, FeynArts, and FormCalc—to recalculate amplitudes of established processes in the Standard Model, providing insights into quantum field theory.\\n- Successfully defended the thesis in French, highlighting the pivotal role of these computational tools in advancing our comprehension of fundamental physical phenomena.",
 		"linked": [{ "name": "Thesis", "id": "masters-thesis" }]
 	},
-
 	{
 		"name": "Summer Student",
 		"map": "Ginebra",

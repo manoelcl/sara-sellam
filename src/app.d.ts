@@ -7,7 +7,17 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+		interface Work {
+			article: string[];
+			date: number;
+			title: string;
+			brief?: string;
+		}
+
+		interface Works {
+			[slug: string]: Work;
+		}
 	}
 }
 
-export {};
+export { Work, Work };

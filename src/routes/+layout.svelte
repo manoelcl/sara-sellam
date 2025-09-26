@@ -11,7 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 <div
-	class=" grid h-screen grid-cols-[max-content_1fr] grid-rows-[1fr_max-content] bg-nicewhite font-inter text-nicecoast"
+	class=" grid min-h-screen grid-cols-[max-content_1fr] grid-rows-[1fr_max-content] bg-nicewhite font-inter text-nicecoast"
 >
 	<header class="col-span-1 col-start-1 h-full w-80 bg-nicesea p-6 text-nicewhite">
 		<img
@@ -38,11 +38,14 @@
 				<li><a class=" hover:bg-nicesky" href="/">Home</a></li>
 				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
 				<li><a class=" hover:bg-nicesky" href="/experience">Experience</a></li>
+				<li><a class=" hover:bg-nicesky" href="/works">Works</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main class="col-span-1 col-start-2">
 		{@render children?.()}
 	</main>
-	<footer class="col-span-2 col-start-1 row-start-2 h-8 bg-nicecoast"></footer>
+	<footer class="col-span-2 col-start-1 row-start-2 bg-nicecoast pt-2 text-nicewhite">
+		<p class=" mb-4 text-center">© Sara Sellam, 2025</p>
+	</footer>
 </div>
