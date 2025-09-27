@@ -78,3 +78,7 @@ export const createScene = (el: HTMLCanvasElement, path: any) => {
 		}
 	);
 };
+
+export const printName = (name: String) => {
+	console.log(name);
+};

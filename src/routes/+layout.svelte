@@ -15,7 +15,7 @@
 >
 	<header class="col-span-1 col-start-1 h-full w-80 bg-nicesea p-6 text-nicewhite">
 		<img
-			class="min-48 m-auto mb-16 size-48 rounded-full shadow-xl"
+			class="min-48 mt-8 mr-auto mb-8 ml-auto size-48 rounded-full shadow-xl"
 			src={portrait}
 			alt="Sara Sellam"
 		/>
@@ -39,6 +39,7 @@
 				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
 				<li><a class=" hover:bg-nicesky" href="/experience">Experience</a></li>
 				<li><a class=" hover:bg-nicesky" href="/works">Works</a></li>
+				<li><a class=" hover:bg-nicesky" href="/contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>

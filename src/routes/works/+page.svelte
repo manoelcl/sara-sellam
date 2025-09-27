@@ -5,7 +5,7 @@
 </script>
 
 <section class=" ">
-	<h1 class="mb-8 bg-nicesea pt-2 pb-2 pl-4 text-4xl text-nicewhite">Works</h1>
+	<h1 class="mb-8 bg-nicesky pt-2 pb-2 pl-4 text-4xl text-nicewhite">Works</h1>
 	<section class="mr-auto ml-auto max-w-3xl text-xl">
 		<ul class=" mr-auto ml-auto grid w-full grid-cols-2 gap-2">
 			{#each worksArray as workId}
