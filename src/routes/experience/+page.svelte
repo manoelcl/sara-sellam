@@ -7,7 +7,6 @@
 	function setCity(cityName: String) {
 		// console.log(cityName);
 		city = cityName;
-		ThreeMap;
 	}
 </script>
 
@@ -16,7 +15,7 @@
 	<section class="mr-auto ml-auto max-w-3xl text-xl">
 		<article class="mb-16 flex w-full flex-row">
 			<div class="h-45 w-45 overflow-clip rounded-md border-4 border-nicesky">
-				<ThreeMap />
+				<ThreeMap location={city} />
 			</div>
 			<div class="grow bg-nicesky">
 				<h3 class="-ml-6 bg-nicesea pl-6 text-4xl text-nicewhite">{city}</h3>

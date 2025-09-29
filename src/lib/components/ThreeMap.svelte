@@ -1,13 +1,21 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { asset } from '$app/paths';
+	import { onMount } from 'svelte';
+	let { location } = $props();
+	// let module = import('$lib/3dscenes/world_scene');
+	import { setCity, createScene } from '$lib/3dscenes/world_scene';
+
 	const locations: Array<String> = ['Santiago de Compostela', 'Constantine'];
 	let el: HTMLCanvasElement;
-	let module;
+
+	$effect(() => setCity(location));
 	onMount(async () => {
-		module = await import('$lib/3dscenes/world_scene');
-		module.createScene(el, asset('world.glb'));
+		createScene(el, asset('world.glb'));
 	});
+	// onMount(async () => {
+	// 	module = await import('$lib/3dscenes/world_scene');
+	// 	module.createScene(el, asset('world.glb'));
+	// });
 </script>
 
 <canvas class="h-full w-full" bind:this={el}></canvas>
