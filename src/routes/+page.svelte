@@ -11,7 +11,7 @@
 		</h1>
 		<p class="mb-1">
 			I'm a data scientist based in Santiago de Compostela, Spain. I am currently working in my
-			physcics PhD from USC for discovering insights on the structure of matter from CERN particle
+			physics PhD from USC for discovering insights on the structure of matter from CERN particle
 			collision data.
 		</p>
 		<p class="mb-1">I love working with data and solving problems.</p>
