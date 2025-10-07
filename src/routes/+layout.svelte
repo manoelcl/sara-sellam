@@ -11,9 +11,11 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 <div
-	class=" grid min-h-screen grid-cols-[max-content_1fr] grid-rows-[1fr_max-content] bg-nicewhite font-inter text-nicecoast"
+	class="grid min-h-screen grid-cols-[max-content_1fr] grid-rows-[max-content_1fr] bg-nicewhite font-inter text-nicecoast md:grid-rows-[1fr_max-content]"
 >
-	<header class="col-span-1 col-start-1 h-full w-80 bg-nicesea p-6 text-nicewhite">
+	<header
+		class="col-span-2 col-start-1 h-full w-full bg-nicesea p-6 text-nicewhite md:col-span-1 md:w-80"
+	>
 		<img
 			class="min-48 mt-8 mr-auto mb-8 ml-auto size-48 rounded-full shadow-xl"
 			src={portrait}
@@ -34,7 +36,7 @@
 			</li>
 		</ul>
 		<nav class="mb-auto text-2xl">
-			<ul class="list-inside">
+			<ul class="flex-column flex list-inside justify-evenly md:block">
 				<li><a class=" hover:bg-nicesky" href="/">Home</a></li>
 				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
 				<li><a class=" hover:bg-nicesky" href="/experience">Experience</a></li>
@@ -43,10 +45,12 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="col-span-1 col-start-2">
+	<main class="col-span-2 col-start-1 grow md:col-span-1 md:col-start-2">
 		{@render children?.()}
 	</main>
-	<footer class="col-span-2 col-start-1 row-start-2 bg-nicecoast pt-2 text-nicewhite">
+	<footer
+		class="col-span-2 col-start-1 row-start-3 bg-nicecoast pt-2 text-nicewhite md:row-start-3"
+	>
 		<p class=" mb-4 text-center">© Sara Sellam, 2025</p>
 	</footer>
 </div>
