@@ -22,7 +22,7 @@
 		<p class="mb-1">
 			Interested in working together or having a chat? Feel free to reach out to me.
 		</p>
-		<ul class="flex flex-row flex-wrap">
+		<ul class="flex flex-row flex-wrap justify-evenly">
 			<li class="w-1/3 min-w-60">
 				<article>
 					<header class=" min-h-30">

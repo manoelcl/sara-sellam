@@ -10,7 +10,3 @@
 	--color-nicesea: #5c8ebe;
 	--color-nicewhite: #eeeeee;
 }
-
-p {
-	@apply text-justify;
-}

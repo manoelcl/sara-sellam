@@ -49,7 +49,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="col-span-2 col-start-1 grow md:col-span-1 md:col-start-2">
+	<main class="col-span-2 col-start-1 grow overflow-auto md:col-span-1 md:col-start-2">
 		{@render children?.()}
 	</main>
 	<footer
