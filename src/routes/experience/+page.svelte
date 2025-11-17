@@ -12,7 +12,7 @@
 
 <section class=" ">
 	<h1 class="mb-8 bg-nicesky pt-2 pb-2 pl-4 text-4xl text-nicewhite">Experience</h1>
-	<section class="mr-auto ml-auto max-w-3xl text-xl">
+	<section class="m-4 min-h-full max-w-3xl text-xl lg:mr-auto lg:ml-auto">
 		<article class="mb-16 flex w-full flex-row">
 			<div class="h-45 w-45 overflow-clip rounded-md border-4 border-nicesky">
 				<ThreeMap location={city} />

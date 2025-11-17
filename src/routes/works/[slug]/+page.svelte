@@ -8,9 +8,9 @@
 
 <section>
 	<h1 class="mb-8 bg-nicesea pb-2 pl-4 text-4xl text-nicewhite">Home</h1>
-	<article class="mr-auto ml-auto max-w-3xl text-xl">
+	<article class="m-4 min-h-full max-w-3xl text-xl lg:mr-auto lg:ml-auto">
 		<header>
-			<h1 class="mb-8 text-6xl">
+			<h1 class="mb-8 text-3xl md:text-6xl">
 				{work.title.toUpperCase()}
 			</h1>
 			<p>{work.date}</p>

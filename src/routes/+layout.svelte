@@ -15,7 +15,7 @@
 >
 	<header class="col-span-2 col-start-1 w-full bg-nicesea p-6 text-nicewhite md:col-span-1 md:w-80">
 		<img
-			class="min-48 mt-8 mr-auto mb-8 ml-auto size-48 rounded-full shadow-xl"
+			class="min-48 mt-8 mr-auto mb-8 ml-auto hidden size-48 rounded-full shadow-xl md:block"
 			src={portrait}
 			alt="Sara Sellam"
 		/>
@@ -40,12 +40,12 @@
 			</li>
 		</ul>
 		<nav class="mb-auto text-2xl">
-			<ul class="flex-column flex list-inside justify-evenly md:block">
-				<li><a class=" hover:bg-nicesky" href="/">Home</a></li>
-				<li><a class=" hover:bg-nicesky" href="/aboutme">About me</a></li>
-				<li><a class=" hover:bg-nicesky" href="/experience">Experience</a></li>
-				<li><a class=" hover:bg-nicesky" href="/works">Works</a></li>
-				<li><a class=" hover:bg-nicesky" href="/contact">Contact</a></li>
+			<ul class="flex-column flex list-inside flex-wrap justify-evenly md:block">
+				<li><a class=" w-fit text-nowrap hover:bg-nicesky" href="/">Home</a></li>
+				<li><a class="w-fit text-nowrap hover:bg-nicesky" href="/aboutme">About me</a></li>
+				<li><a class="w-fit text-nowrap hover:bg-nicesky" href="/experience">Experience</a></li>
+				<li><a class="w-fit text-nowrap hover:bg-nicesky" href="/works">Works</a></li>
+				<li><a class="w-fit text-nowrap hover:bg-nicesky" href="/contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -53,7 +53,7 @@
 		{@render children?.()}
 	</main>
 	<footer
-		class="col-span-2 col-start-1 row-start-3 bg-nicecoast pt-2 text-center text-nicewhite md:row-start-3"
+		class="col-span-2 col-start-1 row-start-3 bg-nicecoast pt-2 text-nicewhite md:row-start-3"
 	>
 		<p class=" mb-4 text-center">© Sara Sellam, 2025</p>
 	</footer>

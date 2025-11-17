@@ -5,8 +5,8 @@
 
 <section class=" ">
 	<h1 class="mb-8 bg-nicesky pt-2 pb-2 pl-4 text-4xl text-nicewhite">Home</h1>
-	<article class="mr-auto ml-auto max-w-3xl text-xl">
-		<h1 class="mb-16 text-6xl">
+	<article class=" m-4 min-h-full max-w-3xl text-xl lg:mr-auto lg:ml-auto">
+		<h1 class="mb-8 text-3xl md:text-6xl">
 			HI! MY NAME IS <br /> SARA SELLAM
 		</h1>
 		<p class="mb-1">

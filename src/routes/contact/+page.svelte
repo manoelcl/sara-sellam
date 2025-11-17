@@ -6,7 +6,7 @@
 <section class="min-h-full overflow-auto">
 	<h1 class="mb-8 bg-nicesky pt-2 pb-2 pl-4 text-4xl text-nicewhite">Contact</h1>
 	<article class="m-4 min-h-full max-w-3xl text-xl lg:mr-auto lg:ml-auto">
-		<h1 class="mb-16 text-6xl">DO YOU WANT<br /> TO TALK?</h1>
+		<h1 class="mb-8 text-3xl md:text-6xl">DO YOU WANT<br /> TO TALK?</h1>
 		<p class="mb-6">Get in touch in my social media:</p>
 		<ul class=" ml-6 flex flex-col gap-4">
 			<li>

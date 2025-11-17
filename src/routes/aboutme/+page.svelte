@@ -10,7 +10,7 @@
 <section class="min-h-full overflow-auto">
 	<h1 class="mb-8 bg-nicesky pt-2 pb-2 pl-4 text-4xl text-nicewhite">About me</h1>
 	<article class=" m-4 min-h-full max-w-3xl text-xl lg:mr-auto lg:ml-auto">
-		<h1 class="mb-16 text-6xl">
+		<h1 class="mb-8 text-3xl md:text-6xl">
 			RELIABLE SOFTWARE <br /> DEVELOPMENT FOR <br /> COMPLEX DATA ANALYSIS
 		</h1>
 		<p class="mb-1">
