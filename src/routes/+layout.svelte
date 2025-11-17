@@ -11,11 +11,9 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 <div
-	class="grid min-h-screen grid-cols-[max-content_1fr] grid-rows-[max-content_1fr] bg-nicewhite font-inter text-nicecoast md:grid-rows-[1fr_max-content]"
+	class=" grid h-lvh max-h-lvh grid-cols-[max-content_1fr] grid-rows-[max-content_1fr] overflow-hidden bg-nicewhite font-inter text-nicecoast md:grid-rows-[1fr_max-content]"
 >
-	<header
-		class="col-span-2 col-start-1 h-full w-full bg-nicesea p-6 text-nicewhite md:col-span-1 md:w-80"
-	>
+	<header class="col-span-2 col-start-1 w-full bg-nicesea p-6 text-nicewhite md:col-span-1 md:w-80">
 		<img
 			class="min-48 mt-8 mr-auto mb-8 ml-auto size-48 rounded-full shadow-xl"
 			src={portrait}
@@ -25,12 +23,18 @@
 		<p class="m-auto mb-4 w-fit text-2xl text-nicesky">Data scientist</p>
 		<ul class="m-auto mb-4 flex w-fit flex-row gap-4">
 			<li>
-				<a href="https://github.com/Sara-Sellam">
+				<a
+					class="hover:brightness-250 hover:drop-shadow-lg hover:saturate-0"
+					href="https://github.com/Sara-Sellam"
+				>
 					<img src={ghlogo} alt="Github logo" class="size-8" />
 				</a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/in/sara-sellam-1222621b6/">
+				<a
+					class="hover:brightness-250 hover:drop-shadow-lg hover:saturate-0"
+					href="https://www.linkedin.com/in/sara-sellam-1222621b6/"
+				>
 					<img src={lilogo} alt="LinkedIn logo" class="size-8" />
 				</a>
 			</li>
@@ -49,7 +53,7 @@
 		{@render children?.()}
 	</main>
 	<footer
-		class="col-span-2 col-start-1 row-start-3 bg-nicecoast pt-2 text-nicewhite md:row-start-3"
+		class="col-span-2 col-start-1 row-start-3 bg-nicecoast pt-2 text-center text-nicewhite md:row-start-3"
 	>
 		<p class=" mb-4 text-center">© Sara Sellam, 2025</p>
 	</footer>

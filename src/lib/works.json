@@ -4,25 +4,9 @@
 		"date": 2018,
 		"article": ["Lorem ipsum"]
 	},
-	"masters-thesis2": {
-		"title": "Masters tesis 2",
-		"date": 2018,
-		"article": ["Lorem ipsum"]
-	},
-	"masters-thesis3": {
-		"title": "Masters tesis 3",
-		"date": 2018,
-		"article": ["Lorem ipsum"]
-	},
-	"masters-thesis4": {
-		"title": "Masters tesis",
-		"date": 2018,
-		"article": ["Lorem ipsum"]
-	},
-	"masters-thesis5": {
-		"title": "Masters tesis",
-		"date": 2018,
-		"brief": "resumen",
+	"phd-thesis": {
+		"title": "PhD Thesis",
+		"date": 2025,
 		"article": ["Lorem ipsum"]
 	}
 }

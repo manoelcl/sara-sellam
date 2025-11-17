@@ -29,7 +29,7 @@
 						<h3 class="bg-nicesea p-2 text-nicewhite">
 							{(experience.start === experience.end
 								? experience.start
-								: experience.start + '-' + experience.end) +
+								: experience.start + ' - ' + experience.end) +
 								' ' +
 								experience.institution}
 						</h3>
